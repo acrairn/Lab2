@@ -114,77 +114,37 @@
             <ol class="breadcrumb">
               <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
               <li><a href="#">Aujchara</a></li>
-              <li class="active">Gallery</li>
-              
+              <li class="active">Contact</li>
             </ol>
           </section>
       
           <!-- Main content -->
-          <br>
-          <div class="active tab-pane" id="activity">
-           
-              
-            <!-- /.post -->
-
-            <!-- Post -->
-            <div class="post">
-              <div class="user-block">
-                <img class="img-circle img-bordered-sm" src="../dist/img/Airn.jpg" alt="User Image">
-                    <span class="username">
-                      <a  href="#">Aujchara Dee-unkong</a>
-                      <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
-                    </span>
-                <span class="description">Posted 5 photos - 1 minute ago</span>
-              </div>
-              <!-- /.user-block -->
-              <div class="row margin-bottom">
-                <div class="col-sm-6">
-                  <img class="img-responsive" src="../dist/img/photo1.png" alt="Photo">
+          <section class="content ">
+          <div class="box box-primary ">
+            <div class="container">
+                <h1>-Number guessing game-</h1>
+                <div class="rule">
+                    <h3 class="rule">We have selected a random number between 1 and 100. See if you can guess it
+                        in 10 terns or less. <br> *We'll tell you if you guess was too high or too low.</h3>
                 </div>
-                <!-- /.col -->
-                <div class="col-sm-6">
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <img class="img-responsive" src="../dist/img/wonderland.jpg" alt="Photo">
-                      <br>
-                      <img class="img-responsive" src="../dist/img/photo3.jpg" alt="Photo">
-                      <br>
-                        <img class="img-responsive" src="dist/img/mamamoo.jpg" alt="Photo">
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-sm-6">
-                      <img class="img-responsive" src="dist/img/photo4.jpg" alt="Photo">
-                      <br>
-                      <img class="img-responsive" src="dist/img/ateez.jpg" alt="Photo">
-                      <br>
-                        <img class="img-responsive" src="dist/img/chungha.jpg" alt="Photo">
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="img-responsive" src="dist/img/sunmi.jpg" alt="Photo">
-                        <br>
-                        <img class="img-responsive" src="dist/img/photo2.png" alt="Photo">
-                        <br>
-                        
-                      </div>
-                    
-
-                      
-                      
-
-                    
-                    <!-- /.col -->
-                  </div>
-                  <!-- /.row -->
+        
+                <h4>Enter a guess </h4>
+                <input type="number" id="guessField">
+        
+                <div id="buttonArea">
+                    <button type="submit" class="guessSubmit"> Submit </button>
                 </div>
-                <!-- /.col -->
-              </div>
-              <!-- /.row -->
-              
-             
-
+        
+                <div id="resultArea">
+                    <p id="historyList"> </p>
+                    <p id="isCorrect"></p>
+                    <p id="hint"></p>
+                </div>
+        
             </div>
-            <!-- /.post -->
-          </div>
+        
+            <script src="main.js"></script>
+        </section>
         <!-- /.content-wrapper -->
       
         <footer class="main-footer">
