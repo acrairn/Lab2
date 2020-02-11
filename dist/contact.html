@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<section lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hello</title>
 <!-- Tell the browser to be responsive to screen width -->
-<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<!-- <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"> -->
 <!-- Bootstrap 3.3.7 -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Ionicons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.2/css/ionic.min.css">
+ <!-- Ionicons -->
+ <link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css">
 <!-- Theme style -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.18/css/AdminLTE.min.css">
 <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -103,176 +103,211 @@
       
         <!-- =============================================== -->
       
-        <!-- Content Wrapper. Contains page content -->
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
-          <!-- Content Header (Page header) -->
-          <section class="content-header">
-              <h1>
-                  This is Contact
+       <!-- Content Wrapper. Contains page content -->
+       <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                This is Contact
 
-              </h1>
+            </h1>
 
-          </section>
+        </section>
 
-          <!-- Main content -->
-          <section class="content">
+        <!-- Main content -->
+        <section class="content">
 
-              <section class="content">
-                  <!-- Small boxes (Stat box) -->
+            <section class="content">
+                <!-- Small boxes (Stat box) -->
 
-                  <div class="row">
-                      <div class="col-lg-12 col-xs-12">
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12">
 
-                          
+                        <div class="box box-widget widget-user">
+                            <!-- Add the bg color to the header using any of the bg-* classes -->
+                            <div class="widget-user-header bg-maroon-active">
+                                <h3 class="widget-user-username">Aujchara Dee-unkong</h3>
+                                <h5 class="widget-user-desc">Engineering Student</h5>
+                            </div>
+                            <div class="widget-user-image">
+                                <img class="img-circle" src="img/Airn.jpg" alt=" ">
+                            </div>
+                            <div class="box-footer">
+                                <div class="row">
 
+                                    <div class="description-block">
+                                        <h5 class="description-header">
+                                            <h3 id="email" style="display: inline">&ensp;<a
+                                                    href="mailto:name@yourdomain.com">Aujchara_D@cmu.ac.th</a>
+                                            </h3>
+                                            <h3><center>(+66)-931-311369</center></h3>
+                                        </h5>
+                                    </div>
+                                    <!-- /.description-block -->
 
+                                    <!-- /.description-block -->
 
-                          <div class="col-md-13">
-                              <div class="nav-tabs-custom">
-                                  <div class="box box-default">
-                                      <ul class="nav nav-tabs">
-                                          <li class="active"><a href="#activity" data-toggle="tab">Contact</a>
-                                          </li>
-
-                                      </ul>
-                                  </div>
-                                  <div class="tab-content">
-                                      <div class="active tab-pane" id="activity">
-
-                                          <!-- Box Comment -->
-                                          <div class="box box-widget">
-                                              <div class="box-header with-border">
-                                                  <div class="user-block">
-                                                      <h3 align="center">CONTACT FORM</h3>
-                                                  </div>
-                                              </div>
-                                              
-
-                                                  <div class="col-md-13">
-
-                                                      <div class="card-body">
-                                                          <form action="">
-                                                              <div class="form-group">
-                                                                  <label for="">Firstname</label>
-                                                                  <input type="text" id="Firstname"
-                                                                      class="form-control"
-                                                                      placeholder="Firstname" required="">
-                                                              </div>
-                                                              <div class="form-group">
-                                                                  <label for="">Lastname</label>
-                                                                  <input type="text" id="Lastname"
-                                                                      class="form-control"
-                                                                      placeholder="Lastname" required="">
-                                                              </div>
-                                                              <div class="form-group" id="myRadio">
-                                                                  <label for="">Gender</label><br>
-                                                                  <input type="radio" name="gender"
-                                                                      value="Male">Male <br>
-                                                                  <input type="radio" name="gender"
-                                                                      value="Female">Female <br>
-                                                              </div>
-                                                              <div class="form-group">
-                                                                  <label for="">Email</label>
-                                                                  <input type="email" id="Email"
-                                                                      class="form-control"
-                                                                      placeholder="someone@example.com" required="">
-                                                              </div>
-                                                              <div class="form-group">
-                                                                  <label for="">Detail</label>
-                                                                  <textarea type="textbox" id="Detail"
-                                                                      class="form-control"
-                                                                      placeholder="detail " required =""></textarea>
-                                                              </div>
-
-                                                          </form>
-                                                          <button id="pass"
-                                                              class="btn btn-danger btn-flat">Save</button>
-                                                          <button id="reset"
-                                                              class="btn btn-danger btn-flat">Clear</button>
-                                                       <!-- /.box-body -->
-                                                      <div class="col-md-13">
-                                                          <div class="card text-white bg-dark mb-3">
-                                                              <div class="card-header">
-                                                                  <h3 class="card-title">My Contact List</h3>
-                                                              </div>
-                                                              <div class="card-body">
-                                                                  <table class="table text-white">
-                                                                      <thead>
-                                                                          <tr>
-                                                                              <th>Firstname</th>
-                                                                              <th>Lastname</th>
-                                                                              <th>Gender</th>
-                                                                              <th>Email</th>
-                                                                              <th>Detail</th>
-                                                                          </tr>
-                                                                      </thead>
-                                                                      <tbody>
-
-                                                                      </tbody>
-                                                                  </table>
-                                                              </div>
-                                                              <div class="card-footer">
-                                                                  <h4 id="gpatotal"></h4>
-                                                                  <h4 id="gpatotal_letter"></h4>
-
-                                                              </div>
-                                                          </div>
-                                                          <div id="donutchart"
-                                                              style="width: 740px; height: 500px; ">
-
-                                                          </div>
-                                                      </div>
-                                                  </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                        </div>
 
 
 
+                        <div class="col-md-13">
+                            <div class="nav-tabs-custom">
+                                <div class="box box-defult">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#activity" data-toggle="tab">Contact</a>
+                                        </li>
 
-                                                      
-                                                     
-                                                  </div>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="active tab-pane" id="activity">
 
-                                          </div>
+                                        <!-- Box Comment -->
+                                        <div class="box box-widget">
+                                            <div class="box-header with-border">
+                                                <div class="user-block">
+                                                    <h3 align="center">CONTACT FORM</h3>
+                                                </div>
+                                            </div>
+                                            
 
-                                          
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-              </section>
+                                                <div class="col-md-13">
 
-              <!-- /.content -->
-      </div>
-      <!-- /.content-wrapper -->
+                                                    <div class="card-body">
+                                                        <form action="">
+                                                            <div class="form-group">
+                                                                <label for="">Firstname</label>
+                                                                <input type="text" id="Firstname"
+                                                                    class="form-control"
+                                                                    placeholder="Firstname" required="">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="">Lastname</label>
+                                                                <input type="text" id="Lastname"
+                                                                    class="form-control"
+                                                                    placeholder="Lastname" required="">
+                                                            </div>
+                                                            <div class="form-group" id="myRadio">
+                                                                <label for="">Gender</label><br>
+                                                                <input type="radio" name="gender"
+                                                                    value="Male">Male <br>
+                                                                <input type="radio" name="gender"
+                                                                    value="Female">Female <br>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="">Email</label>
+                                                                <input type="email" id="Email"
+                                                                    class="form-control"
+                                                                    placeholder="someone@example.com" required="">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="">Detail</label>
+                                                                <textarea type="textbox" id="Detail"
+                                                                    class="form-control"
+                                                                    placeholder="detail " required =""></textarea>
+                                                            </div>
 
-      <footer class="main-footer">
-          <div class="pull-right hidden-xs">
-              <b>Version</b> 2.4.18
-          </div>
-          <strong>Copyright © 2014-2019 <a href="https://adminlte.io">AdminCPE</a>.</strong> All rights
-          reserved.
-      </footer>
+                                                        </form>
+                                                        <button id="pass"
+                                                            class="btn btn-danger btn-flat">Save</button>
+                                                        <button id="reset"
+                                                            class="btn btn-danger btn-flat">Clear</button>
+                                                     <!-- /.box-body -->
+                                                    <div class="col-md-13">
+                                                        <div class="card text-white bg-dark mb-3">
+                                                            <div class="card-header">
+                                                                <h3 class="card-title">My Contact List</h3>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <table class="table text-white">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Firstname</th>
+                                                                            <th>Lastname</th>
+                                                                            <th>Gender</th>
+                                                                            <th>Email</th>
+                                                                            <th>Detail</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="card-footer">
+                                                                <h4 id="gpatotal"></h4>
+                                                                <h4 id="gpatotal_letter"></h4>
+
+                                                            </div>
+                                                        </div>
+                                                        <div id="donutchart"
+                                                            style="width: 740px; height: 500px; ">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
 
 
-  </div>
-  <!-- ./wrapper -->
-      <!-- jQuery 3 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootstrap 3.3.7 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- SlimScroll -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
-<!-- FastClick -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
-<!-- AdminLTE App -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.18/js/adminlte.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.18/js/demo.js"></script>
-<script>
-  $(document).ready(function () {
-    $('.sidebar-menu').tree()
-  })
+
+
+                                                    
+                                                   
+                                                </div>
+
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+
+            <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+            <b>Version</b> 2.4.18
+        </div>
+        <strong>Copyright © 2014-2019 <a href="https://adminlte.io">AdminCPE</a>.</strong> All rights
+        reserved.
+    </footer>
+
+
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 3 -->
+
+
+<script src="./dist/js/adminlte.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 </script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="form.js"></script>
+</body>
 </body>
 </html>
 
